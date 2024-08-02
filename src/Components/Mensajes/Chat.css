@@ -1,0 +1,121 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px ;
+  background-color: #075E54;
+  color: white;
+  z-index: 2;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-icons {
+  display: flex;
+}
+
+.header-icons i {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.chat-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://i.pinimg.com/564x/97/c0/07/97c00759d90d786d9b6096d274ad3e07.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+}
+
+.messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  z-index: 1;
+}
+
+.message-input-form {
+  display: flex;
+  padding: 10px;
+  background-color: #f0f0f0;
+  z-index: 2;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.send-button {
+  width: 40px;
+  height: 40px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #128C7E;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.back-arrow {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}

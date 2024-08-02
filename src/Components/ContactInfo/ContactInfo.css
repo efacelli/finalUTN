@@ -1,0 +1,59 @@
+.contact-info-page {
+    background-color: #f0f2f5;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-info-header {
+    background-color: #008069;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info-back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+  
+  .contact-info-profile {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .contact-info-profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-details {
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .contact-info-detail-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .contact-info-detail-item i {
+    margin-right: 15px;
+    color: #666;
+    width: 20px;
+  }
+  
+  .contact-info-not-found {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #666;
+  }

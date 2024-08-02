@@ -1,0 +1,82 @@
+.message {
+  max-width: 60%;
+  margin-bottom: 5px;
+  clear: both;
+}
+
+.yo-message {
+  float: right;
+}
+
+.other-message {
+  float: left;
+}
+
+.message-content {
+  padding: 8px 12px;
+  border-radius: 7.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.yo-message .message-content {
+  background-color: rgba(220, 248, 198, 0.9);
+  border-top-right-radius: 0;
+}
+
+.other-message .message-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top-left-radius: 0;
+}
+
+.message-content p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.message-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.75em;
+  color: #7e7e7e;
+}
+
+.message-time {
+  margin-right: 5px;
+}
+
+.message-status {
+  font-size: 1em;
+}
+
+.message-status.visto {
+  color: #4fc3f7;
+}
+
+.message-status.enviado,
+.message-status.entregado {
+  color: #7e7e7e;
+}
+
+.yo-message .message-content::before,
+.other-message .message-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+
+.yo-message .message-content::before {
+  right: -10px;
+  border-left-color: #dcf8c6;
+  border-right: 0;
+}
+
+.other-message .message-content::before {
+  left: -10px;
+  border-right-color: #fff;
+  border-left: 0;
+}
