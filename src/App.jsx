@@ -1,6 +1,6 @@
 import React from 'react';
-import Chat from './Components/Mensajes/Chat';
-import { DATA_MOOK, personas } from './data.js';
+import Chat from './Components/Chat/Chat.jsx';
+import { personas } from './data.js';
 import { Routes, Route } from 'react-router-dom';
 import Contactos from './Components/Contactos/Contactos.jsx';
 import ContactInfo from './Components/ContactInfo/ContactInfo.jsx';
