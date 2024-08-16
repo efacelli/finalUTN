@@ -81,7 +81,7 @@ const DATA_MOOK = [
     {
       id: 3,
       nombre: "Fer",
-      fotoPerfil: "https://media-eze1-1.cdn.whatsapp.net/v/t61.24694-24/403311103_1410630246535363_361379544122436321_n.jpg?ccb=11-4&oh=01_Q5AaIHytmR8ttPEzTc_2yZ3Si355Di5EmWOZGUC0C-5M8HUJ&oe=66B0F0FB&_nc_sid=e6ed6c&_nc_cat=110",
+      fotoPerfil: "https://ca-times.brightspotcdn.com/dims4/default/99f1c3a/2147483647/strip/true/crop/2000x1405+0+0/resize/1200x843!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc9%2Fa9%2F68435d41cf690e0c019e87278361%2F1f764b198a42470189b99b4084be6cf0",
       mensajes: [
         {
           id: 1,
